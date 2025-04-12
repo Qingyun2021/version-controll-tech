@@ -1,0 +1,14 @@
+just watch this video 
+https://www.youtube.com/watch?v=iYwboA7CVlE
+
+one thing to correct is:
+step 1
+	in terminal, type
+	ng build --configuration production
+
+
+
+ng build --prod is no longer used 
+instead, you should use ng build --configuration production
+
+
