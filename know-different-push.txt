@@ -1,0 +1,21 @@
+1) ★★★  generally most often used one is "git push" command
+	git push
+	use it, if you already set up a tracking relationship 
+	between your current branch and the remote branch
+
+2) git push -u origin main
+	use it, when you first time set up your branch
+	That -u option told Git:
+	"Hey, from now on, link my local main branch to the remote origin/main branch."
+
+3) git push origin
+	Pushes all matching branches from your local repo to the origin remote.
+	e.g.
+	I have branch b1, b2, b3, their up-stream branch is origin.
+	after using git push origin, all the stored changement in the local repository
+	of b1,b2,b3 will be sent to origin
+
+4) git push origin branchName
+	Pushes a specific branch to the origin remote.
+	e.g. git push origin b1 
+	as result, only changement of b1 will be sent to remote origin branch.
